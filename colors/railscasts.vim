@@ -48,8 +48,8 @@ hi link htmlEndTag           xmlEndTag
 
 hi Normal                    guifg=#E6E1DC guibg=#141414 ctermfg=254 ctermbg=NONE
 hi Cursor                    guifg=#000000 ctermfg=0     guibg=#FFFFFF ctermbg=15
-hi CursorLine                guibg=#333333 guifg=NONE
-hi CursorCol                 guibg=#333333 guifg=NONE
+hi CursorLine                cterm=none ctermbg=234 guibg=#333333 guifg=NONE
+hi CursorColumn              cterm=none ctermbg=234 guibg=#333333 guifg=NONE
 hi StatusLine                guifg=#444444 guibg=#cccccc gui=bold ctermfg=233   ctermbg=246 cterm=bold
 hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=233   ctermbg=237 cterm=none
 hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=237   ctermbg=237 cterm=none
@@ -64,13 +64,15 @@ hi Function                  guifg=#FFC66D ctermfg=221 gui=NONE cterm=NONE
 hi Keyword                   guifg=#CC7833 ctermfg=173 cterm=NONE
 hi link Include              Statement
 hi link PreCondit            Statement
+hi Todo                      ctermbg=NONE ctermfg=160 guifg=#d70000 guibg=NONE gui=bold
 
-hi LineNr                    guifg=#303030 ctermfg=236
+hi LineNr                    guifg=#555555 ctermfg=236
 hi String                    guifg=#A5C261 ctermfg=107
 hi link Number String
 hi PreProc                   guifg=#E6E1DC ctermfg=103
-hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
+"hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
 hi IncSearch                 guifg=White   guibg=Black ctermfg=White ctermbg=Black
+hi link Search IncSearch
 hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
