@@ -56,7 +56,7 @@ hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=237   
 
 hi Comment                   guifg=#BC9458 ctermfg=180 gui=italic
 hi Constant                  guifg=#6D9CBE ctermfg=73
-hi link Identifier Constant
+hi link Identifier rubyConstant
 hi Define                    guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
 hi Statement                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
 hi Error                     guifg=#FFC66D ctermfg=221 guibg=#990000 ctermbg=88
@@ -89,6 +89,7 @@ hi Special                   guifg=#DA4939 ctermfg=167
 hi pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 hi rubyBlockParameter        guifg=#FFFFFF ctermfg=15
 hi link rubyConstant           Type
+hi link rubyCapitalizedMethod  rubyConstant
 hi link rubyPredefinedConstant Type
 hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
 hi rubyInterpolation         guifg=#519F50 ctermfg=107
