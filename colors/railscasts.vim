@@ -70,7 +70,7 @@ hi LineNr                    guifg=#555555 ctermfg=236
 hi String                    guifg=#A5C261 ctermfg=107
 hi link Number String
 hi PreProc                   guifg=#E6E1DC ctermfg=103
-"hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
+hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
 hi IncSearch                 guifg=White   guibg=Black ctermfg=White ctermbg=Black
 hi link Search IncSearch
 hi Title                     guifg=#FFFFFF ctermfg=15
